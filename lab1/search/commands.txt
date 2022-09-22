@@ -1,0 +1,5 @@
+python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=lee
+python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=greed
+python pacman.py --layout mediumCorners -p AStarCornersAgent
+python pacman.py -l trickySearch -p AStarFoodSearchAgent
